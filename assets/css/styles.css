@@ -75,6 +75,7 @@ body{
 
 .head{
     padding-bottom:10%;
+    align-self:center;
 }
 
 .form-container{
