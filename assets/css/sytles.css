@@ -51,7 +51,7 @@ body{
 }
 
 .logos img {
-    max-width: 10%;
+    max-width: 20%;
     height: auto;
     align-self: center;
 }
@@ -66,15 +66,21 @@ body{
 .right-side{
     display:flex;
     flex-direction:column;
-    justify-content: space-around;
+    justify-content: center;
     width:60%;
     padding-left:2%;
     background-color: rgb(6, 170, 94);
     height: 100%;
 }
 
+.head{
+    padding-bottom:10%;
+}
+
 .form-container{
     display:flex;
+    justify-content: center;
+
 }
 
 .col1{
@@ -90,6 +96,9 @@ body{
 .input{
     display:flex;
     flex-direction:column-reverse;
+    padding: 2%;
+    font-size:75%;
+
 }
 
 .foot{
