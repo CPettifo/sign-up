@@ -1,6 +1,6 @@
 @font-face {
     font-family: Liber;
-    src: url("/assets/fonts/LiberStructRegular.otf")
+    src: url("../fonts/LiberStructRegular.otf")
 }
 
 /* Force page to use entire height of screen*/
@@ -15,7 +15,7 @@ body{
     margin:0px;
     overflow: hidden;
     font-family: Liber;
-    background-image: url("/assets/images/background.jpg");
+    background-image: url("../images/background.jpg");
     flex-grow: 1;
     height:100%;
 }
